@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #081b29;
+  color: #ededed;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  background: #081b29;
+  z-index: 1000;
+}
+
+.logo {
+  color: #00abf0;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #ededed;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #00abf0;
+}
+
+/* SECTIONS */
+section {
+  padding: 120px 10%;
+  min-height: 100vh;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #00abf0;
+}
+
+.center-text {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* HOME */
+.home h1 {
+  font-size: 50px;
+}
+
+.home h3 {
+  color: #00abf0;
+  margin: 10px 0;
+}
+
+.btn-box {
+  margin-top: 20px;
+}
+
+.btn-box a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 25px;
+  background: #00abf0;
+  color: #081b29;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SKILLS */
+.skills-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.bar {
+  background: #1b3a4b;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.bar div {
+  height: 100%;
+  width: 0;
+  background: #00abf0;
+  border-radius: 10px;
+}
+
+/* TOOLS */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.tool-card {
+  padding: 20px;
+  background: #0f2c3f;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #0f2c3f;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  background: #00abf0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.socials {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socials a {
+  color: #00abf0;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #041018;
+}
