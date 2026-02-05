@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anas - Cybersecurity Portfolio</title>
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="particles" aria-hidden="true"></div>
+
+  <header class="header">
+    <a href="#home" class="logo">Anas.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#tools">Tools</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="content">
+      <h1>Hi, I'm Anas</h1>
+      <h3>Ethical Hacker</h3>
+      <p>
+        I'm a Ethical Hacker student and developer based in Calicut, India, specializing in vulnerability assessment,
+        secure software development, and penetration testing. My work bridges theoretical foundations with practical,
+        hands-on experience through labs and real-world simulations. I'm driven by a deep curiosity about how systems
+        fail and a commitment to strengthening them through structured, repeatable security practices and clear
+        documentation.
+      </p>
+      <div class="btn-box">
+        <a href="#contact">Hire me</a>
+        <a href="#projects">View Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <h3>Cybersecurity Enthusiast & Developer</h3>
+        <p>
+          With a passion for digital security and ethical hacking, I specialize in identifying vulnerabilities and
+          implementing robust security measures. My journey in cybersecurity combines academic knowledge with practical
+          experience in penetration testing and secure development.
+        </p>
+        <p>
+          I believe in continuous learning and staying updated with the latest security threats and defense mechanisms.
+          My goal is to contribute to a safer digital world through innovative security solutions and best practices.
+        </p>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-item">
+          <h4>-</h4>
+          <p>Security Assessments</p>
+        </div>
+        <div class="stat-item">
+          <h4>-</h4>
+          <p>Tools Mastered</p>
+        </div>
+        <div class="stat-item">
+          <h4>-</h4>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+          <h4>-</h4>
+          <p>Certifications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills & Expertise</h2>
+
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>🛡️ .</h3>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>💻 .</h3>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🔍 .</h3>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">.</span>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="0%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools" class="tools">
+    <h2 class="section-title">.</h2>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <i class="bx bx-shield-quarter"></i>
+        <h3>Nmap</h3>
+        <p>Network discovery and security auditing tool for port scanning and network mapping</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-bug"></i>
+        <h3>Burp Suite</h3>
+        <p>Comprehensive web application security testing platform for finding vulnerabilities</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-terminal"></i>
+        <h3>Metasploit</h3>
+        <p>Penetration testing framework for developing and executing exploit code</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-search-alt"></i>
+        <h3>Wireshark</h3>
+        <p>Network protocol analyzer for troubleshooting and security analysis</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-lock-alt"></i>
+        <h3>John the Ripper</h3>
+        <p>Password cracking tool for testing password strength and security</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-code-alt"></i>
+        <h3>OWASP ZAP</h3>
+        <p>Open-source web application security scanner for finding vulnerabilities</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-network-chart"></i>
+        <h3>Nessus</h3>
+        <p>Vulnerability scanner for identifying security weaknesses in systems</p>
+      </div>
+      <div class="tool-card">
+        <i class="bx bx-desktop"></i>
+        <h3>Kali Linux</h3>
+        <p>Debian-based Linux distribution designed for digital forensics and penetration testing</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      <!-- Keep your cards same as before -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <section id="certifications" class="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <div class="cert-grid">
+      <!-- Keep your cert cards same as before -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get In Touch</h2>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Let's Work Together</h3>
+        <p>
+          I'm always interested in new opportunities and challenging projects. Whether you need a security assessment,
+          penetration testing, or secure development consultation, I'm here to help.
+        </p>
+
+        <div class="contact-item">
+          <i class="bx bx-map"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Calicut, Kerala, India</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bx-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>anasofficialnet@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bx-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 8547113598</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bx-time"></i>
+          <div>
+            <h4>Response Time</h4>
+            <p>Within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/anas-abdul-aziz-7a97aa380/" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://github.com/anasofficialnet" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Anas Abdul Aziz. All rights reserved. | Cybersecurity Professional</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

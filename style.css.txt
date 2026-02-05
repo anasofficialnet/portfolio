@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #081b29;
+  color: #ededed;
+  overflow-x: hidden;
+}
+
+/* (paste the rest of your CSS here...) */
